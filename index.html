@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinedum Ogbonnaya | Creative & Analytics Portfolio</title>
+<meta name="description" content="Graphic design and data analytics portfolio of Chinedum Ogbonnaya.">
+<style>
+:root {
+  --bg: #0c1119;
+  --panel: #141c29;
+  --white: #f0f3fa;
+  --muted: #9ba8bc;
+  --blue: #3168f5;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+a { color: inherit; text-decoration: none; }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 7%;
+  border-bottom: 1px solid #202a39;
+}
+.logo { font-size: 20px; font-weight: 800; }
+.logo span { color: var(--blue); }
+nav { display: flex; gap: 25px; color: var(--muted); }
+nav a:hover { color: var(--blue); }
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 10%;
+  max-width: 1100px;
+}
+.eyebrow {
+  color: var(--blue);
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+h1 {
+  font-size: clamp(52px, 9vw, 100px);
+  line-height: 1.02;
+  letter-spacing: -4px;
+  margin: 20px 0;
+}
+.hero h2 {
+  color: var(--blue);
+  font-size: clamp(25px, 5vw, 43px);
+  line-height: 1.25;
+}
+.hero p {
+  color: var(--muted);
+  font-size: 19px;
+  max-width: 650px;
+  margin: 28px 0;
+}
+.btn {
+  display: inline-block;
+  background: var(--blue);
+  padding: 14px 30px;
+  border-radius: 40px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.btn:hover { background: #204ed0; }
+section { padding: 85px 10%; }
+.section-title {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.section-title span { color: var(--blue); }
+.intro { color: var(--muted); max-width: 680px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-top: 35px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid #263348;
+  padding: 30px;
+  border-radius: 14px;
+}
+.card h3 { font-size: 23px; margin-bottom: 12px; }
+.card p { color: var(--muted); }
+.tag {
+  display: inline-block;
+  color: #9bb5ff;
+  background: #1b2d54;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+.skills span {
+  background: var(--panel);
+  border: 1px solid #263348;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: var(--muted);
+}
+.contact {
+  background: #111b2c;
+  text-align: center;
+}
+.contact p {
+  color: var(--muted);
+  margin: 15px auto;
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--muted);
+  border-top: 1px solid #263348;
+  font-size: 14px;
+}
+@media(max-width:650px) {
+  header { padding: 20px 6%; }
+  nav { display: none; }
+  .hero { padding: 80px 7%; min-height: 78vh; }
+  h1 { letter-spacing: -2px; }
+  section { padding: 65px 7%; }
+  .grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo">CJ<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#design">Design</a>
+    <a href="#analytics">Analytics</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <span class="eyebrow">Creative thinking. Analytical insight.</span>
+    <h1>Chinedum<br>Ogbonnaya.</h1>
+    <h2>Graphic Design &<br>Data Analytics</h2>
+    <p>
+      I combine visual creativity with analytical thinking
+      to transform ideas, information and data into
+      meaningful experiences and solutions.
+    </p>
+    <div>
+      <a href="#contact" class="btn">Get in Touch ↗</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">About <span>Me.</span></h2>
+    <p class="intro">
+      I am a creative professional with a background in
+      Agribusiness and Management, interested in the
+      intersection of design, technology and data.
+      My work brings together visual communication,
+      problem-solving and continuous learning.
+    </p>
+  </section>
+
+  <section id="design">
+    <h2 class="section-title">Graphic <span>Design.</span></h2>
+    <p class="intro">
+      Visual communication through thoughtful design,
+      branding and digital content.
+    </p>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">Brand Identity</span>
+        <h3>Branding & Identity</h3>
+        <p>Visual identities, logos and brand communication.</p>
+      </article>
+      <article class="card">
+        <span class="tag">Digital Design</span>
+        <h3>Social Media Design</h3>
+        <p>Creative graphics and content for digital platforms.</p>
+      </article>
+      <article class="card">
+        <span class="tag">Print Design</span>
+        <h3>Marketing Materials</h3>
+        <p>Flyers, promotional materials and advertising designs.</p>
+      </article>
+      <article class="card">
+        <span class="tag">Creative Projects</span>
+        <h3>Visual Storytelling</h3>
+        <p>Communicating ideas through compelling visual content.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="analytics">
+    <h2 class="section-title">Data <span>Analytics.</span></h2>
+    <p class="intro">
+      Developing practical skills in data analysis,
+      interpretation and visualization to support
+      informed decision-making.
+    </p>
+    <div class="grid">
+      <article class="card">
+        <span class="tag">Excel</span>
+        <h3>Data Analysis</h3>
+        <p>Data cleaning, organization and spreadsheet analysis.</p>
+      </article>
+      <article class="card">
+        <span class="tag">SQL</span>
+        <h3>Database Queries</h3>
+        <p>Exploring, filtering and analyzing structured data.</p>
+      </article>
+      <article class="card">
+        <span class="tag">Power BI</span>
+        <h3>Data Visualization</h3>
+        <p>Dashboards, reports and visual insights.</p>
+      </article>
+      <article class="card">
+        <span class="tag">Projects</span>
+        <h3>Business Insights</h3>
+        <p>Practical analytical projects and problem-solving.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Tools & <span>Skills.</span></h2>
+    <div class="skills">
+      <span>Adobe Illustrator</span>
+      <span>Photoshop</span>
+      <span>Canva</span>
+      <span>Figma</span>
+      <span>Excel</span>
+      <span>SQL</span>
+      <span>Power BI</span>
+      <span>Data Analysis</span>
+      <span>Visual Design</span>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Let's <span>Connect.</span></h2>
+    <p>Have a project, opportunity or idea? Let's talk.</p>
+    <a href="mailto:your-email@example.com" class="btn">Contact Me ↗</a>
+  </section>
+</main>
+
+<footer>
+  © 2026 Chinedum Ogbonnaya. All rights reserved.
+</footer>
+
+</body>
+</html>
